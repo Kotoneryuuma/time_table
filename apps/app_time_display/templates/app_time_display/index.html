@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app_time_display/css/style.css' %}">    
+      <script src="{% static 'app_time_display/js/script.js' %}"></script>
+</head>
+<body>
+    <img src="{% static 'app_time_display/images/image.jpg' %}" />
+    <p>The current ttime and date:</p>
+    <div>
+        {{time}}
+    </div>
+    
+</body>
+</html>
